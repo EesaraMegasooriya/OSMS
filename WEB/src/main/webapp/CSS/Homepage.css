@@ -1,0 +1,174 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+.background{
+background: linear-gradient(135deg, #000000, #0084ff);
+}
+
+/* video background */
+#background-video {
+	opacity: 50%;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* page content */
+
+
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+      background-size: cover;
+    }
+}
+
+
+.css-uloginbutton {
+	color: #FFFFFF;
+	font-size: 21px;
+	border-radius: 9px;
+	border: solid 1px #0968c8;
+	text-shadow: 1px 1px 12px #a3a3a3;
+	box-shadow: 0px 10px 14px -7px #616174;
+	text-decoration: none;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	font-family: Verdana;
+	background: linear-gradient(180deg, #1e8fff 10%, #0968c8 100%);
+	display: inline-flex;
+	align-items: center;
+	padding: 0;
+}
+.css-uloginbutton:hover {
+	background: linear-gradient(180deg, #0968c8 10%, #1e8fff 100%);
+}
+.css-uloginbutton-text {
+	position: relative;
+	padding: 13px 43px;
+}
+.css-uloginbutton-icon {
+	position: relative;
+	border-right: 1px solid #ffffff29;
+	box-shadow: inset rgb(0 0 0 / 14%) -1px 0 0;
+	padding: 13px 10px;
+}
+
+
+
+
+.css-adloginbutton {
+	color: #FFFFFF;
+	font-size: 21px;
+	border-radius: 9px;
+	border: solid 1px #0968c8;
+	text-shadow: 1px 1px 12px #a3a3a3;
+	box-shadow: 0px 10px 14px -7px #616174;
+	text-decoration: none;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	font-family: Verdana;
+	background: linear-gradient(180deg, #1e8fff 10%, #0968c8 100%);
+	display: inline-flex;
+	align-items: center;
+	padding: 0;
+}
+.css-adloginbutton:hover {
+	background: linear-gradient(180deg, #0968c8 10%, #1e8fff 100%);
+}
+.css-adloginbutton-text {
+	position: relative;
+	padding: 13px 43px;
+}
+.css-adloginbutton-icon {
+	position: relative;
+	border-right: 1px solid #ffffff29;
+	box-shadow: inset rgb(0 0 0 / 14%) -1px 0 0;
+	padding: 13px 10px;
+}
+
+
+.HomeTitle {
+	color: #444444;
+
+text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+	padding-top: 20px;
+	font-size: 50px;
+    font-family: 'poppins';
+}
+
+.subtitlehome{
+	color: #FFFFFF;
+font-size: 20px;
+text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+color: #FFFFFF;
+
+	text-align: center;
+}
+
+.HomepageLogo{
+	 border-radius: 50%;
+}
+
+.Homebutton{
+	padding: 20px;
+}
+
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 20%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}

@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.adubackground {
+    padding: 25px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #C0C0C0;
+}
+
+.adutitle {
+	font-size: 45px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.tablehead {
+    background-color: rgb(255, 255, 255);
+}

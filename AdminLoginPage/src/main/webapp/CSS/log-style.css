@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url('userlogin.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+ 
+}
+
+.HomeTitle{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+  .container
+{
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 500px;
+    position: relative;
+}
+
+
+form .button{
+    height: 45px;
+    width: 150px;
+}
+
+form .button input{
+    height: 100%;
+    width: 55%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #000000, #0084ff);
+}
+
+form .button input:hover{
+    background: linear-gradient(-135deg, #000000, #0084ff);
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight:500 ;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline:none ;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: #0084ff;
+}
+
+form .button{
+	display: flex;
+	flex-wrap: wrap;
+    height: 45px;
+    width: 35%;
+    margin: 45px 0;
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #000000, #0084ff);
+}
+
+form .button input:hover{
+    background: linear-gradient(-135deg, #000000, #0084ff);
+}
+
+
+.home-button {
+	color: #FFFFFF;
+	font-size: 16px;
+	border-radius: 5px;
+	border: solid 1px #3381ed;
+	text-shadow: 1px 1px 0px #1571cd;
+	box-shadow: inset 1px 1px 2px 0px #97c4fe;
+	text-decoration: none;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	font-family: Georgia;
+	font-weight: bold;
+	background: linear-gradient(180deg, #3d93f6 10%, #1e62d0 100%);
+	display: inline-flex;
+	align-items: center;
+	padding: 0;
+}
+.home-button:hover {
+	background: linear-gradient(180deg, #1e62d0 10%, #3d93f6 100%);
+}
+.home-button-text {
+	position: relative;
+	padding: 10px 18px;
+}
+.home-button-icon {
+	position: relative;
+	border-right: 1px solid #ffffff29;
+	box-shadow: inset rgb(0 0 0 / 14%) -1px 0 0;
+	padding: 10px 10px;
+}
+

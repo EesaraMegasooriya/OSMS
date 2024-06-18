@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+table{
+	width: 100%;
+	background: linear-gradient(118deg, rgb(186, 208, 28) 0%, rgb(0, 174, 174) 100%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.taskvtitle{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+.spangg {
+  color: #f4f49f;
+}
+
+span{
+	color: white;
+}
+.tablehead{
+	background-color: papayawhip;
+	
+}
+
+.css-ususbutton {
+	color: #FFFFFF;
+	font-size: 16px;
+	border-radius: 5px;
+	border: solid 1px #3381ed;
+	text-shadow: 1px 1px 0px #1571cd;
+	box-shadow: inset 1px 1px 2px 0px #97c4fe;
+	text-decoration: none;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+	background: linear-gradient(180deg, #3d93f6 10%, #1e62d0 100%);
+	display: inline-flex;
+	align-items: center;
+	padding: 0;
+}
+.css-ususbutton:hover {
+	background: linear-gradient(180deg, #1e62d0 10%, #3d93f6 100%);
+}
+.css-ususbutton-text {
+	position: relative;
+	padding: 10px 18px;
+}
+.css-ususbutton-icon {
+	position: relative;
+	border-right: 1px solid #ffffff29;
+	box-shadow: inset rgb(0 0 0 / 14%) -1px 0 0;
+	padding: 10px 10px;
+}

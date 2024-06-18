@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 680px; /* Should be removed. Only for demonstration */
+}
+.dcolumn {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 800px; /* Should be removed. Only for demonstration */
+}
+.dltcolumn {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.row {
+  margin: 0 0 80px 0;
+}
+/* For Webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+  cursor: pointer; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color (the background of the scrollbar) */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e33e44; /* Thumb color (the draggable part of the scrollbar) */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e70911; /* Thumb color on hover */
+}
+
+.abc {
+  color: white;
+  font-size: 50px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {
+  font-family: Arial, sans-serif; /* Replace with your image path */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Apply a blur effect */
+  background-color: #f6ccd2;
+}
+
+.bkdlt {
+  background-image: url(../CSS/dlt.avif);
+  background-size: cover;
+  border-radius: 8px 20px 20px 8px;
+}
+
+h1 {
+  text-align: center;
+}
+.container {
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  background-color: white;
+  width: 600px;
+  color: #1f2833;
+  border-radius: 8px;
+}
+
+
+.right-half {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  padding-top: 10px;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input {
+  margin: 8px 0 0 0;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.per {
+  text-align: center;
+}
+
+.xt {
+  text-decoration: none;
+  font-weight: bold;
+  color: #e70911;
+}
+button {
+  background-color: #e33e44;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #e70911;
+  color: #ffffff;
+}
+
+.btnn {
+  background-color: #e33e44;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.btnn:hover {
+  background-color: #e70911;
+  color: #ffffff;
+}

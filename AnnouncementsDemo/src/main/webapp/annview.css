@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "poppins", sans-serif;
+	box-sizing: border-box;
+}
+
+.container1 {
+	background-color: #C0C0C0;
+	text-align: center;
+
+}
+
+.topic {
+	text-align: center;
+	background-color: #CD853F;
+	color: black;
+	font-size: 42px;
+}
+
+.annviewtable {
+	background: linear-gradient(118deg, rgba(138, 138, 142, 1) 0%, rgba(238, 238, 245, 1) 100%);
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+
+.updatebtn {
+	background-color: #000ed4;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.delebtn {
+	background-color: #f44336;
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.css-ususbutton {
+	color: #FFFFFF;
+	font-size: 16px;
+	border-radius: 5px;
+	border: solid 1px #3381ed;
+	text-shadow: 1px 1px 0px #1571cd;
+	box-shadow: inset 1px 1px 2px 0px #97c4fe;
+	text-decoration: none;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+	background: linear-gradient(180deg, #3d93f6 10%, #1e62d0 100%);
+	display: inline-flex;
+	align-items: center;
+	padding: 0;
+}
+.css-ususbutton:hover {
+	background: linear-gradient(180deg, #1e62d0 10%, #3d93f6 100%);
+}
+.css-ususbutton-text {
+	position: relative;
+	padding: 10px 18px;
+}
+.css-ususbutton-icon {
+	position: relative;
+	border-right: 1px solid #ffffff29;
+	box-shadow: inset rgb(0 0 0 / 14%) -1px 0 0;
+	padding: 10px 10px;
+}
+
+.createbtn {
+	background-color: rgb(128, 0, 255);
+	color: white;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
